@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "target": "es2017",
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "types": ["node", "jest"],
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "incremental": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "sourceMap": true
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["src/**/*", "typings/**/*", "test/**/*"]
+}
